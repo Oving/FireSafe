@@ -1,0 +1,409 @@
+    @font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+.glyphicon {
+  position: relative;
+  top: 4px;
+  left: 2px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -moz-osx-font-smoothing: grayscale;
+}
+.glyphicon-menu-left:before{content:"\e257"}
+.glyphicon-triangle-bottom:before{content:"\e252"}
+
+
+html,body
+    {
+        margin: 0;
+        width:100%;
+        height:100%;
+        font-family: "微软雅黑";
+    }
+    ul,h1,img
+    {
+        margin: 0;
+    }
+    
+    #hm 
+    {
+        width:30%;
+        height: 100%;
+        float: left;
+    }
+    #title
+    {
+        width:40%;
+        height: 100%;
+        float: left;
+        text-align:center; 
+    }
+    #div_webinfo
+    {
+        width:30%;
+        height: 100%;
+        float: left;
+    }
+    #div_clock
+    {
+        width: 80%;
+        float: left;
+    }
+    #div_clock p
+    {
+        text-align: right;
+        margin: 0;
+        color:#fff;
+        font:bolder 20px 微软雅黑;
+    }
+    #div_clock #timer
+    {
+        padding-top: 10px;
+        font:bolder 30px 微软雅黑;
+    }
+    #div_userlogo
+    {
+        width: 20%;
+        padding-top: 6px;
+        float: left;
+        cursor: pointer;
+    }
+    #userlogo
+    {
+        display: block;
+        margin:0px auto;
+        width: 55px;
+    }
+    #user_name
+    {
+        margin:0px auto;
+        text-align: center;
+        display: block;
+        color: #fff;
+    }
+    #hm img
+    {
+        margin-top: 25px;
+        margin-left:20px;
+    }
+    #img_logo
+    {
+        
+        height: 70%;
+        position: relative;
+        top:14px;
+        left: -10px;
+    }
+    #title h1
+    {
+        position: relative;
+        top:-8px;
+        font:lighter 27px 微软雅黑;
+        color: #fff;
+        display: inline;
+    }
+    li
+    {
+        list-style-type: none;
+        cursor: pointer;
+    }
+    #main
+    {
+        width:100%;
+        height: 100%;
+    }
+    #header
+    {
+        width:100%;
+        height: 90px;
+        background-color: #343d4c;
+    }
+    .mCustomScrollBox
+    {
+        width: 100%;
+    }
+    #sidebar
+    {
+        left: -240px;
+        width:250px;
+        height: calc(100% - 90px - 10px);
+        background-color: #d1d1d3;
+        padding: 5px;
+        overflow: hidden;
+        position: absolute;
+        z-index: 999;
+    }
+    #tab_content,#tab_bbl,#tab_system
+    {
+        width:100%;
+        height: calc(100% - 30px);
+        background-color: #fff;
+        overflow: auto;
+    }
+    #main_iframe
+    {
+        width:calc(100% - 18px);
+        height: calc(100% - 90px);
+        position: absolute;
+        left: 18px;
+        border:none;
+    }
+    #canvas
+    {
+        width:calc(100% - 18px);
+        height: calc(100% - 90px);
+        position: absolute;
+        left: 18px;
+        background-color:#d3dcdc;
+    }
+    #tab_navi
+    {
+        width:100%;
+        height: 30px;
+    }
+    #tab_navi span
+    {
+        padding: 5px;
+        text-align: center;
+        width:calc(50% - 10px);
+        background-color: #fff;
+        float: left;
+    }
+    #tab_navi span:last-child
+    {
+        background-color: #d1d1d3;
+    }
+    #DevicesList,#BBLcontrol,#fireSystem
+    {
+        cursor: pointer;
+    }
+    .cls_bbl
+    {
+        padding-left:15px;
+        background-color:White;
+    }
+    .text_bbl
+    {
+        text-decoration: underline;
+        cursor:pointer;
+    }
+    .cctv_iframe
+    {
+        width:352px;
+        height: 288px;
+    }
+    .placemark_text
+    {
+
+    }
+    #div_view
+    {
+        margin-bottom: 10px;
+    }
+    .mynav
+    {
+        padding: 0px;
+        font-size: 18px;
+        line-height: 35px;
+        padding-top:2px;
+    }
+    .first_level
+    {
+        width: calc(100% - 10px);
+        height: 20%;
+        background-color: #ffffff;
+        text-align: center;
+        line-height: 161px;
+    }
+    .mynav li:not(.listStyle)
+    {
+        border-bottom: 1px solid #d1d1d3;
+    }
+    .mynav>li
+    {
+        padding-left: 10px;
+        font-weight: bold;
+    }
+    .mynav li:hover
+    {
+        background-color: #d1d1d3;
+    }
+    .mynav ul
+    {
+        padding-left: 0px;
+    }
+    .mynav>ul>li
+    {
+        padding-left: 40px;
+    }
+    .mynav>ul>ul>li
+    {
+        padding-left: 80px;
+    }
+    .mynav>ul>ul>ul>li
+    {
+        padding-left: 100px;
+    }
+    .listStyle
+    {
+        font-size:80%;
+        line-height: 20px;
+    }
+    .paramText
+    {
+        font-weight: thick;
+        color: blue;
+    }
+    #smartInfoDiv
+    {
+        height: 100px;
+        width:calc(100% - 250px - 21px);
+        position:absolute;
+        top:calc(100% - 150px);
+        left:calc(250px + 7px);
+        z-index: 9999;
+        background-color: rgba(141,135,135,0.3);
+    }
+    .infoText
+    {
+        font-weight:lighter;
+        font-size: 60px;
+        font-family:"微软雅黑";
+        color: #fff;
+        text-shadow:3px 3px 3px #000;
+        margin-top:10px;
+        margin-left: 100px; 
+    }
+    /*#consoleInfo
+    {
+        font-weight:lighter;
+        font-size: 60px;
+        font-family:"微软雅黑";
+        color: #fff;
+        text-shadow:3px 3px 3px #000;
+        margin-top:10px;
+        margin-left: 100px; 
+    }
+    #consoleInfoDiv
+    {
+        height: 100px;
+        width:calc(100% - 250px - 21px);
+        position:absolute;
+        top:calc(100% - 150px);
+        left:calc(250px + 7px);
+        z-index: 9999;
+        background-color: rgba(141,135,135,0.3);
+    }*/
+    .isGrey
+    {
+        background-color: #d9d9d9;
+    }
+    .nav_return
+    {
+
+    }
+    .CalloutStyle
+    {
+        font-size: 12px;
+    }
+    li>b
+    {
+        font-size: 60%;
+        padding-left: 10px;
+    }
+    #compass
+    {
+        position:absolute;
+        left:10px;
+        bottom:10px;
+        width:100px;
+        height:100px;
+        cursor:pointer;
+    }
+    #cover_logo
+    {
+        position:absolute;
+        right:5px;
+        bottom:5px;
+        width:140px;
+        z-index: 9997;
+        cursor:pointer;
+    }
+    #lodingDiv{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top:0px;
+      left:0px;
+      z-index: 9999;
+      background-color: rgba(0,0,0,0.7);
+    }
+    .spinner {
+      width: 80px;
+      height: 80px;
+      position: relative;
+      margin: 100px auto;
+      top:calc(50% - 60px - 100px - 50px);
+      text-align: center;
+    }
+     #consoleInfo
+    {
+        width: 400px;
+        font-weight:lighter;
+        font-size: 20px;
+        font-family:"微软雅黑";
+        color: #fff;
+        text-shadow:3px 3px 3px #000;
+        padding-top: 60px;
+        margin-left: -155px;
+    }
+    #consoleInfo2
+    {
+        width: 400px;
+        font-weight:lighter;
+        font-size: 20px;
+        font-family:"微软雅黑";
+        color: #fff;
+        text-shadow:3px 3px 3px #000;
+        padding-top: 0px;
+        margin-left: -155px;
+    }
+    .double-bounce1, .double-bounce2 {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background-color: #67CF22;
+      opacity: 0.6;
+      position: absolute;
+      top: 0;
+      left: 0;
+       
+      -webkit-animation: bounce 2.0s infinite ease-in-out;
+      animation: bounce 2.0s infinite ease-in-out;
+    }
+     
+    .double-bounce2 {
+      -webkit-animation-delay: -1.0s;
+      animation-delay: -1.0s;
+    }
+     
+    @-webkit-keyframes bounce {
+      0%, 100% { -webkit-transform: scale(0.0) }
+      50% { -webkit-transform: scale(1.0) }
+    }
+     
+    @keyframes bounce {
+      0%, 100% {
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+      } 50% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+      }
+    }

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>首页-消防专题三维建筑管理平台</title>
+    <link rel="stylesheet" href="../css/jquery.mCustomScrollbar.css" />
+    <link href="../css/app.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <div id="hm">
+                <a href="app.html"><img id="img_home" src="../img/home.png" alt="home" /></a>
+                <img id="img_menu" style="cursor:pointer" onclick="alert('需求规划中.')" src="../img/menu.png" alt="menu" />
+            </div>
+            <div id="title">
+                <img id="img_logo" src="../img/logo.png" alt="logo" />
+                <h1>消防专题三维建筑管理平台</h1>
+            </div>
+            <div id="div_webinfo">
+                <div id="div_clock">
+                    <p id="timer"></p>
+                    <p id="weekdate"></p>
+                </div>
+                <div id="div_userlogo">
+                    <img id="userlogo" src="../img/userlogo.png"/>
+                    <span id="user_name"></span>
+                </div>
+            </div>
+        </div>
+        <div id="sidebar">
+            <div id="tab_navi">
+                <span id="DevicesList">楼层分区</span>
+                <span id="fireSystem">消防系统</span>
+                <!--<span id="BBLcontrol">楼层控制</span>-->
+            </div>
+            <div id="tab_content" class="tab_main">
+                <nav>
+                    <ul id="mynav_ul" class="mynav">
+                    </ul>
+                </nav>
+            </div>
+            <div id="tab_bbl" class="tab_main" hidden>
+            </div>
+            <div id="tab_system" class="tab_main" hidden>
+                <nav>
+                    <ul id="mynav_system" class="mynav">
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!--<div id="consoleInfoDiv">
+            <p id="consoleInfo"></p>
+        </div>-->
+        <div id="smartInfoDiv" hidden>
+            <p id="infoText" class="infoText"></p>
+        </div>
+        <iframe id="main_iframe" hidden></iframe>
+        <div id="lodingDiv">
+            <div class="spinner">
+              <div class="double-bounce1"></div>
+              <div class="double-bounce2"></div>
+            <p id="consoleInfo"></p>
+            <p id="consoleInfo2"></p>
+            </div>
+
+        </div>
+        <div id="canvas">
+        <!--<img id="compass" src="../../data/_warehouse/images/compass2.png"></img>-->
+        <!--<img id="cover_logo" src="../img/神码LOGO.png"></img>-->
+        </div>
+    </div>
+    <div id="footer" hidden>
+        Powered by NewScene@NUCLEUS
+    </div>
+    <!-- Script -->
+    <script src="../js/app.js"></script>
+    <script> 
+        window.onload=function(){
+            Main();
+        }
+    </script>
+</body>
+</html>

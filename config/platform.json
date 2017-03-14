@@ -1,0 +1,578 @@
+﻿{
+    "site_id":"11",
+    "ns_lib":"http://localhost:1419/lib",
+    "site_name":"Box Demo",
+    "model_src":"../../data/zhongdian/zdds.DAE",
+    "level_module": [
+                
+                {
+                    "name": "第十四层",
+                    "visibility": "true",
+                    "module": [
+                                {
+                                    "name": "防火分区A",
+                                    "visibility": "true",
+                                    "module":[
+                                            {
+                                                "name": "设备",
+                                                "visibility": "true",
+                                                "module":[
+                                                   
+                                                ]
+                                            },
+                                            {
+                                                "name": "设施",
+                                                "visibility": "true",
+                                                "module":[
+                                                   
+                                                ]
+                                            }
+                                    ]
+                                }
+                            ]
+                },
+                {
+                    "name": "第十三层",
+                    "visibility": "true",
+                    "module": [
+                                {
+                                    "name": "防火分区A",
+                                    "visibility": "true",
+                                    "module":[
+                                            {
+                                                "name": "设备",
+                                                "visibility": "true",
+                                                "module":[
+                                                   
+                                                ]
+                                            },
+                                            {
+                                                "name": "设施",
+                                                "visibility": "true",
+                                                "module":[
+                                                   
+                                                ]
+                                            }
+                                    ]
+                                }
+                            ]
+                },
+                {
+                    "name": "第十二层",
+                    "visibility": "true",
+                    "module": [
+                                {
+                                    "name": "防火分区A",
+                                    "visibility": "true",
+                                    "module":[
+                                            {
+                                                "name": "设备",
+                                                "visibility": "true",
+                                                "module":[
+                                                   
+                                                ]
+                                            },
+                                            {
+                                                "name": "设施",
+                                                "visibility": "true",
+                                                "module":[
+                                                   
+                                                ]
+                                            }
+                                    ]
+                                }
+                            ]
+                },
+                {
+                    "name": "第十一层",
+                    "visibility": "true",
+                    "module": [
+                                {
+                                    "name": "防火分区A",
+                                    "visibility": "true",
+                                    "module":[
+                                            {
+                                                "name": "设备",
+                                                "visibility": "true",
+                                                "module":[
+                                                   
+                                                ]
+                                            },
+                                            {
+                                                "name": "设施",
+                                                "visibility": "true",
+                                                "module":[
+                                                   
+                                                ]
+                                            }
+                                    ]
+                                }
+                            ]
+                },
+                {
+                    "name": "第十层",
+                    "visibility": "true",
+                    "module": [
+                                {
+                                    "name": "防火分区A",
+                                    "visibility": "true",
+                                    "module":[
+                                            {
+                                                "name": "设备",
+                                                "visibility": "true",
+                                                "module":[
+                                                   
+                                                ]
+                                            },
+                                            {
+                                                "name": "设施",
+                                                "visibility": "true",
+                                                "module":[
+                                                   
+                                                ]
+                                            }
+                                    ]
+                                }
+                            ]
+                },
+                {
+                    "name": "第九层",
+                    "visibility": "true",
+                    "module": [
+                                {
+                                    "name": "防火分区A",
+                                    "visibility": "true",
+                                    "module":[
+                                            {
+                                                "name": "设备",
+                                                "visibility": "true",
+                                                "module":[
+                                                   
+                                                ]
+                                            },
+                                            {
+                                                "name": "设施",
+                                                "visibility": "true",
+                                                "module":[
+                                                   
+                                                ]
+                                            }
+                                    ]
+                                }
+                            ]
+                },
+                {
+                    "name": "第八层",
+                    "visibility": "true",
+                    "module": [
+                                {
+                                    "name": "防火分区A",
+                                    "visibility": "true",
+                                    "module":[
+                                            {
+                                                "name": "设备",
+                                                "visibility": "true",
+                                                "module":[
+                                                   
+                                                ]
+                                            },
+                                            {
+                                                "name": "设施",
+                                                "visibility": "true",
+                                                "module":[
+                                                   
+                                                ]
+                                            }
+                                    ]
+                                }
+                            ]
+                },
+                {
+                    "name": "第七层",
+                    "visibility": "true",
+                    "module": [
+                                {
+                                    "name": "防火分区A",
+                                    "visibility": "true",
+                                    "module":[
+                                            {
+                                                "name": "设备",
+                                                "visibility": "true",
+                                                "module":[
+                                                   
+                                                ]
+                                            },
+                                            {
+                                                "name": "设施",
+                                                "visibility": "true",
+                                                "module":[
+                                                   
+                                                ]
+                                            }
+                                    ]
+                                }
+                            ]
+                },
+                {
+                    "name": "第六层",
+                    "visibility": "true",
+                    "module": [
+                                {
+                                    "name": "防火分区A",
+                                    "visibility": "true",
+                                    "module":[
+                                            {
+                                                "name": "设备",
+                                                "visibility": "true",
+                                                "module":[
+                                                   
+                                                ]
+                                            },
+                                            {
+                                                "name": "设施",
+                                                "visibility": "true",
+                                                "module":[
+                                                   
+                                                ]
+                                            }
+                                    ]
+                                }
+                            ]
+                },
+                {
+                    "name": "第五层",
+                    "visibility": "true",
+                    "module": [
+                                {
+                                    "name": "防火分区A",
+                                    "visibility": "true",
+                                    "module":[
+                                            {
+                                                "name": "设备",
+                                                "visibility": "true",
+                                                "module":[
+                                                   
+                                                ]
+                                            },
+                                            {
+                                                "name": "设施",
+                                                "visibility": "true",
+                                                "module":[
+                                                   
+                                                ]
+                                            }
+                                    ]
+                                }
+                            ]
+                },
+                {
+                    "name": "第四层",
+                    "visibility": "true",
+                    "module": [
+                                {
+                                    "name": "防火分区A",
+                                    "visibility": "true",
+                                    "module":[
+                                            {
+                                                "name": "设备",
+                                                "visibility": "true",
+                                                "module":[
+                                                   
+                                                ]
+                                            },
+                                            {
+                                                "name": "设施",
+                                                "visibility": "true",
+                                                "module":[
+                                                   
+                                                ]
+                                            }
+                                    ]
+                                }
+                            ]
+                },
+                {
+                    "name": "第三层",
+                    "visibility": "true",
+                    "module": [
+                                {
+                                    "name": "防火分区A",
+                                    "visibility": "true",
+                                    "module":[
+                                            {
+                                                "name": "设备",
+                                                "visibility": "true",
+                                                "module":[
+                                                   
+                                                ]
+                                            },
+                                            {
+                                                "name": "设施",
+                                                "visibility": "true",
+                                                "module":[
+                                                   
+                                                ]
+                                            }
+                                    ]
+                                }
+                            ]
+                },
+                {
+                    "name": "第二层",
+                    "visibility": "true",
+                    "module": [
+                                {
+                                    "name": "防火分区A",
+                                    "visibility": "true",
+                                    "module":[
+                                            {
+                                                "name": "设备",
+                                                "visibility": "true",
+                                                "module":[
+                                                   
+                                                ]
+                                            },
+                                            {
+                                                "name": "设施",
+                                                "visibility": "true",
+                                                "module":[
+                                                   
+                                                ]
+                                            }
+                                    ]
+                                }
+                            ]
+                },
+                {
+                    "name": "第一层",
+                    "visibility": "true",
+                    "module": [
+                                {
+                                    "name": "防火分区A",
+                                    "visibility": "true",
+                                    "module":[
+                                            {
+                                                "name": "设备",
+                                                "visibility": "true",
+                                                "module":[
+                                                   
+                                                ]
+                                            },
+                                            {
+                                                "name": "设施",
+                                                "visibility": "true",
+                                                "module":[
+                                                   
+                                                ]
+                                            }
+                                    ]
+                                }
+                            ]
+                },
+                {
+                    "name": "负一层",
+                    "visibility": "true",
+                    "module": [
+                                {
+                                    "name": "防火分区A",
+                                    "visibility": "true",
+                                    "module":[
+                                            {
+                                                "name": "设备",
+                                                "visibility": "true",
+                                                "module":[
+                                                   
+                                                ]
+                                            },
+                                            {
+                                                "name": "设施",
+                                                "visibility": "true",
+                                                "module":[
+                                                   
+                                                ]
+                                            }
+                                    ]
+                                }
+                            ]
+                }
+                
+        ],
+    "system_module":[
+        {
+            "name": "水喷淋系统",
+            "visibility": "true",
+            "module":[]
+        },
+        {
+            "name": "消火栓系统",
+            "visibility": "true",
+            "module":[]
+        },
+        {
+            "name": "防排烟系统",
+            "visibility": "true",
+            "module": [
+                {
+                    "name": "第14层",
+                    "visibility": "true"
+                },
+                {
+                    "name": "第13层",
+                    "visibility": "true"
+                },
+                {
+                    "name": "第12层",
+                    "visibility": "true"
+                },
+                {
+                    "name": "第11层",
+                    "visibility": "true"
+                },
+                {
+                    "name": "第10层",
+                    "visibility": "true"
+                },
+                {
+                    "name": "第9层",
+                    "visibility": "true"
+                },
+                {
+                    "name": "第8层",
+                    "visibility": "true"
+                },
+                {
+                    "name": "第7层",
+                    "visibility": "true"
+                },
+                {
+                    "name": "第6层",
+                    "visibility": "true"
+                },
+                {
+                    "name": "第5层",
+                    "visibility": "true"
+                },
+                {
+                    "name": "第4层",
+                    "visibility": "true"
+                },
+                {
+                    "name": "第3层",
+                    "visibility": "true"
+                },
+                {
+                    "name": "第2层",
+                    "visibility": "true"
+                },
+                {
+                    "name": "第1层",
+                    "visibility": "true"
+                },
+                {
+                    "name": "第-1层",
+                    "visibility": "true"
+                }
+            ]
+        },
+        {
+            "name": "人员疏散系统",
+            "visibility": "true",
+            "module": [
+                {
+                    "name": "第14层",
+                    "visibility": "true"
+                },
+                {
+                    "name": "第13层",
+                    "visibility": "true"
+                },
+                {
+                    "name": "第12层",
+                    "visibility": "true"
+                },
+                {
+                    "name": "第11层",
+                    "visibility": "true"
+                },
+                {
+                    "name": "第10层",
+                    "visibility": "true"
+                },
+                {
+                    "name": "第9层",
+                    "visibility": "true"
+                },
+                {
+                    "name": "第8层",
+                    "visibility": "true"
+                },
+                {
+                    "name": "第7层",
+                    "visibility": "true"
+                },
+                {
+                    "name": "第6层",
+                    "visibility": "true"
+                },
+                {
+                    "name": "第5层",
+                    "visibility": "true"
+                },
+                {
+                    "name": "第4层",
+                    "visibility": "true"
+                },
+                {
+                    "name": "第3层",
+                    "visibility": "true"
+                },
+                {
+                    "name": "第2层",
+                    "visibility": "true"
+                },
+                {
+                    "name": "第1层",
+                    "visibility": "true"
+                },
+                {
+                    "name": "第-1层",
+                    "visibility": "true"
+                }
+            ]
+        },
+        {
+            "name": "烟雾&火灾模拟",
+            "visibility": "true",
+            "module": [
+                {
+                    "name": "第13层模拟",
+                    "visibility": "true",
+                    "module": [
+                        {
+                            "name": "烟雾模拟",
+                            "visibility": "true",
+                                "module":[
+                                   
+                                ]
+                        },
+                        {
+                            "name": "火焰模拟",
+                            "visibility": "true",
+                                "module":[
+                                   
+                                ]
+                        }
+                    ]
+                },
+                {
+                    "name": "区域B",
+                    "visibility": "true"
+                },
+                {
+                    "name": "区域C",
+                    "visibility": "true"
+                }
+            ]
+        }
+    ]
+}
